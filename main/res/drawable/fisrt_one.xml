@@ -1,0 +1,18 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Background color when the button is pressed -->
+        <shape>
+            <solid android:color="#B3E5FC" />
+            <corners android:radius="8dp" />
+            <stroke android:width="3dp" android:color="#0288D1" />
+        </shape>
+    </item>
+    <item>
+        <!-- Default background -->
+        <shape>
+            <solid android:color="#ffc8dd" />
+            <corners android:radius="8dp" />
+            <stroke android:width="2dp" android:color="#517D94" />
+        </shape>
+    </item>
+</selector>
